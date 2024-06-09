@@ -27,7 +27,7 @@
 		  </div>
 	  </div>
     <button  type="submit" onclick="window.open('Sarava.html')"> 萨拉维语系 Saravian Languages</button>
-    <button  type="submit" onclick="window.open('Sarava/word.html')"> 现代萨拉维语-词汇表 Lygo Saravi</button>
+    <button  type="submit" onclick="window.open('../Sarava/word.html')"> 现代萨拉维语-词汇表 Lygo Saravi</button>
     <button  type="submit" onclick="window.open('history.html')"> 南方语系 Esso Languages</button>
     <button  type="submit" onclick="window.open('peoples.html')"> 密林语系 Lagmier Languages</button>
   </body>
