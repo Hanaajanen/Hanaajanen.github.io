@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>the World Fantastic</title>
+
+    <meta name="description" content="Personal Blog Web by Tomoe Hanabishi">
+    <meta name="author" content="Hanabishi Tomoe">
+	  <meta name="keywords" content="Four Seasons">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+    
+    <div class="container-fluid">
+	  <div class="row">
+		  <div class="col-md-12">
+			  <h3 class="text-center">
+			  	Welcome to the Fantastic World
+          Aromderedo Mundese Miuneri
+		  		欢迎造访幻想世界
+		  	</h3>
+		  </div>
+	  </div>
+    <button  type="submit" onclick="window.open('Sarava.html')"> 萨拉维语系 Saravian Languages</button>
+    <button  type="submit" onclick="window.open('Sarava/word.html')"> 现代萨拉维语-词汇表 Lygo Saravi</button>
+    <button  type="submit" onclick="window.open('history.html')"> 南方语系 Esso Languages</button>
+    <button  type="submit" onclick="window.open('peoples.html')"> 密林语系 Lagmier Languages</button>
+  </body>
+</html>
