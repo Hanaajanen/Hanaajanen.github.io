@@ -42,6 +42,7 @@
       align-items: center;
       background-color: rgba(0, 0, 0, 0.35);
       width: 100%;
+      transition: height 0.3s ease; 
     }
     .container-fluid {
       display: flex;
@@ -78,6 +79,9 @@
     }
     #content {
       display: none;
+      padding: 10px;
+      transition: max-height 0.3s ease-out;
+      overflow: hidden;
     }
     </style>
   </head>
