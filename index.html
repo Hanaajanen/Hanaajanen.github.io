@@ -109,11 +109,9 @@
 		</div>
 	</div>
 	<div>
-		<div class="col-md-12">
-			<h3>
-				关于馆长
-			</h3>
-			<dl>
+		<div id="title" style="height:30px;background-color: #FFE08B;" onclick="onTileClick()">关于馆长</div>
+                <div id="content" style="height:150px;background-color: #FFFAB9;transition: height 0.2s;">
+	        <dl>
 				<dt>
 					个人信息
 				</dt>
@@ -136,9 +134,8 @@
 					语言体系、历史与政治、家族世系等
 				</dd>
 
-			</dl>	
-			</div>
-		</div>
+			</dl>
+                </div>
 	</div>
 	  <footer>  		
 	      <address>
@@ -168,5 +165,10 @@
         // 设置背景图片
         document.body.style.backgroundImage = `url(${backgroundImage})`;
     </script>
+	<script type="text/javascript">
+	var content = document.getElementById("content");
+	function onTileClick() {content.style.height = content.offsetHeight===150?0+'px':150+'px';}
+</script>
+
   </body>
 </html>
