@@ -76,6 +76,9 @@
     footer a {
       color: white;
     }
+    #content {
+      display: none;
+    }
     </style>
   </head>
   <body>
@@ -113,8 +116,8 @@
 		</div>
 	</div>
 	<div class="column">
-		<div id="title" style="height:30px;background-color: #555555;" onclick="onTileClick()">关于馆长</div>
-                <div id="content" style="height:150px;background-color: #888888;transition: height 0.2s;">
+	    <div id="title" style="height:50px;background-color: rgba(0, 0, 0, 0.4);" onclick="onTileClick()">关于馆长</div>
+                <div id="content" style="background-color: rgba(0, 0, 0, 0.7);transition: height 0.2s;">
 				<dt>个人信息</dt>
 				<dd>花菱灯枝（2001.10.22 - ），女（酷儿），掌管着图书馆现实世界的部分。歌者、舞者、乐手，文学少女，贩卖原创力。
 				</dd>
@@ -158,10 +161,14 @@
         document.body.style.backgroundImage = `url(${backgroundImage})`;
     </script>
 	<script type="text/javascript">
-	document.addEventListener('DOMContentLoaded', function() {
+      document.addEventListener('DOMContentLoaded', function() {
       var content = document.getElementById("content");
       document.getElementById("title").onclick = function() {
-        content.style.height = content.offsetHeight === 150 ? 0 + 'px' : 150 + 'px';
+        if (content.style.display === "none") {
+          content.style.display = "block";
+        } else {
+          content.style.display = "none";
+        }
       };
     });
     </script>
