@@ -51,6 +51,13 @@
     }
     .row {
       display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .column {
+      display: flex;
       flex-direction: column;
       align-items: center;
       width: 100%;
@@ -73,11 +80,11 @@
   </head>
   <body>
     <header>
-        <a onclick="window.open('/src/log/login.html')">登录</a>
-        <a onclick="window.open('/src/log/reg.html')">加入</a>
+        <a onclick="window.open('/src/index/friends.html')">友人</a>
+        <a onclick="window.open('/src/index/mn.html')">赞助</a>
     </header>
     <main class="container-fluid">
-	<div class="row">
+	<div class="column">
 		<div class="col-md-12">
 			<h3 class="text-center">
 				Welcome to the Library<br>
@@ -105,31 +112,22 @@
 			</button>
 		</div>
 	</div>
-	<div>
+	<div class="column">
 		<div id="title" style="height:30px;background-color: #555555;" onclick="onTileClick()">关于馆长</div>
                 <div id="content" style="height:150px;background-color: #888888;transition: height 0.2s;">
-				<dt>
-					个人信息
+				<dt>个人信息</dt>
+				<dd>花菱灯枝（2001.10.22 - ），女（酷儿），掌管着图书馆现实世界的部分。歌者、舞者、乐手，文学少女，贩卖原创力。
+				</dd>
+				<dd>Soshoja 'Suja' Napitati (1611.1.1 - )，女，第98任执星者，掌管着图书馆幻想世界的部分。现居住在黄昏平原、图书馆实体化的所在。
+				</dd>
+				<dt>知识技能（现实世界）
 				</dt>
-				<dd>
-					花菱灯枝（2001.10.22 - ），女（酷儿），掌管着图书馆现实世界的部分。歌者、舞者、乐手，文学少女，贩卖原创力。
+				<dd>文学/文选、语言学/语音学、化学、情报科学、音乐等
 				</dd>
-				<dd>
-					Soshoja 'Suja' Napitati (1611.1.1 - )，女，第98任执星者，掌管着图书馆幻想世界的部分。现居住在黄昏平原、图书馆实体化的所在。
-				</dd>
-				<dt>
-					知识技能（现实世界）
+				<dt>世界观体系（幻想世界）
 				</dt>
-				<dd>
-					文学/文选、语言学/语音学、化学、情报科学、音乐等
-				</dd>
-				<dt>
-					世界观体系（幻想世界）
-				</dt>
-				<dd>
-					语言体系、历史与政治、家族世系等
-				</dd>
-                </div>
+				<dd>语言体系、历史与政治、家族世系等
+				</dd></div>
 	</div></main>
 	  <footer>  		
 	      <address>
@@ -140,7 +138,7 @@
     <script src="/src/js/jquery.min.js"></script>
     <script src="/src/js/bootstrap.min.js"></script>
     <script src="/src/js/scripts.js"></script>
-<script>
+    <script>
         // 获取当前月份
         const month = new Date().getMonth();
         let backgroundImage;
@@ -160,9 +158,13 @@
         document.body.style.backgroundImage = `url(${backgroundImage})`;
     </script>
 	<script type="text/javascript">
-	var content = document.getElementById("content");
-	function onTileClick() {content.style.height = content.offsetHeight===150?0+'px':150+'px';}
-</script>
+	document.addEventListener('DOMContentLoaded', function() {
+      var content = document.getElementById("content");
+      document.getElementById("title").onclick = function() {
+        content.style.height = content.offsetHeight === 150 ? 0 + 'px' : 150 + 'px';
+      };
+    });
+    </script>
 
   </body>
 </html>
