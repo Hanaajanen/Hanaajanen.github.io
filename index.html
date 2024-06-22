@@ -14,64 +14,61 @@
     <link href="/src/css/style.css" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-            margin: 0;
-            color: white;
-            background-position: center;
-            background-size: cover;
-        }
-        header {
-            display: flex;
-            justify-content: flex-end;
-            padding: 10px;
-            background-color: rgba(0, 0, 0, 0.5);
-        }
-        header a {
-            margin: 0 10px;
-            text-decoration: none;
-            color: white;
-        }
-        main {
-            display: flex;
-            flex: 1;
-            justify-content: center;
-            align-items: center;
-	    background-color: rgba(0, 0, 0, 0.4);
-            width: 100%; 
-        }
-        .container {
-            display: flex;
-            width: 60%;
-            justify-content: space-between;
-        }
-        .box {
-            width: 45%;
-            height: 300px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: rgba(0, 0, 0, 0.2);
-            border: 2px solid rgba(0, 0, 0, 0.5);
-            text-align: center;
-            font-size: 1.5em;
-            cursor: pointer;
-            transition: background-color 0.3s, border-color 0.3s;
-        }
-        .box:hover {
-            background-color: rgba(0, 0, 0, 0.4);
-            border-color: white;
-        }
-        footer {
-            padding: 10px;
-            background-color: rgba(0, 0, 0, 0.5);
-            text-align: center;
-        }
-        footer a {
-            color: white;
-        }
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      margin: 0;
+      color: white;
+      background-position: center;
+      background-size: cover;
+    }
+    header {
+      display: flex;
+      justify-content: flex-end;
+      padding: 10px;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    header a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: white;
+    }
+    main {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.4);
+      width: 100%;
+    }
+    .container-fluid {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+    .row {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .col-md-12, .col-md-6 {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    footer {
+      padding: 10px;
+      background-color: rgba(0, 0, 0, 0.5);
+      text-align: center;
+    }
+    footer a {
+      color: white;
+    }
     </style>
   </head>
   <body>
@@ -109,9 +106,8 @@
 		</div>
 	</div>
 	<div>
-		<div id="title" style="height:30px;background-color: #FFE08B;" onclick="onTileClick()">关于馆长</div>
-                <div id="content" style="height:150px;background-color: #FFFAB9;transition: height 0.2s;">
-	        <dl>
+		<div id="title" style="height:30px;background-color: #555555;" onclick="onTileClick()">关于馆长</div>
+                <div id="content" style="height:150px;background-color: #888888;transition: height 0.2s;">
 				<dt>
 					个人信息
 				</dt>
@@ -133,8 +129,6 @@
 				<dd>
 					语言体系、历史与政治、家族世系等
 				</dd>
-
-			</dl>
                 </div>
 	</div></main>
 	  <footer>  		
