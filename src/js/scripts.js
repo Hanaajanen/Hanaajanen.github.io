@@ -14,9 +14,7 @@
         }
 
         // 设置背景图片
-        document.body.style.backgroundImage = `url(${backgroundImage})`;
-    </script>
-	<script type="text/javascript">
+      document.body.style.backgroundImage = `url(${backgroundImage})`;
       document.addEventListener('DOMContentLoaded', function() {
       var content = document.getElementById("content");
       document.getElementById("title").onclick = function() {
