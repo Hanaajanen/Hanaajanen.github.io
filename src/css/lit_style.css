@@ -87,7 +87,7 @@
             font-size: 1em;
         }
         .blog-post-in {
-            max-width: 1500px; /* 最大宽度 */
+            max-width: 1360px; /* 最大宽度 */
             width: 100%; /* 宽度为100%，即自适应屏幕 */
             margin: : 10px 50px 20px 0; /* 居中对齐 */
             padding: 20px;
