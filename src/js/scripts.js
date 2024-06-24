@@ -4,13 +4,13 @@
 
         // 根据月份设置背景图片
         if (month >= 2 && month <= 4) { // 春季: 3月, 4月, 5月
-            backgroundImage = '../bg/spring.jpg';
+            backgroundImage = 'https://niconi.moe/src/bg/spring.jpg';
         } else if (month >= 5 && month <= 7) { // 夏季: 6月, 7月, 8月
-            backgroundImage = '../bg/summer.jpg';
+            backgroundImage = 'https://niconi.moe/src/bg/summer.jpg';
         } else if (month >= 8 && month <= 10) { // 秋季: 9月, 10月, 11月
-            backgroundImage = '../bg/autumn.jpg';
+            backgroundImage = 'https://niconi.moe/src/bg/autumn.jpg';
         } else { // 冬季: 12月, 1月, 2月
-            backgroundImage = '../bg/winter.jpg';
+            backgroundImage = 'https://niconi.moe/src/bg/winter.jpg';
         }
 
         // 设置背景图片
