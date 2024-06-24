@@ -4,29 +4,40 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title>the World Real</title>
-
+    <link rel="icon" href="/src/indexbcg.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/src/indexbcg.png" type="image/x-icon">
     <meta name="description" content="Personal Blog Web by Tomoe Hanabishi">
     <meta name="author" content="Hanabishi Tomoe">
-	  <meta name="keywords" content="Four Seasons">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+	<meta name="keywords" content="Four Seasons">
+    <link href="/src/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/src/css/index_style.css" rel="stylesheet">
 
   </head>
   <body>
-    
-    <div class="container-fluid">
-	  <div class="row">
+    <header>
+	<a onclick="window.open('/src/index/talk')">相谈</a>
+        <a onclick="window.open('/src/index/friends')">友人</a>
+        <a onclick="window.open('/src/index/mn')">赞助</a>
+    </header>
+    <main class="container-fluid">
+	  <div class="column">
 		  <div class="col-md-12">
 			  <h3 class="text-center">
-			  	Welcome to the Real World
-		  		欢迎造访现实世界
+			  	<br>Welcome to the Real World</br>
+		  		<br>欢迎造访现实世界</br>
 		  	</h3>
 		  </div>
 	  </div>
-    <button  type="submit" onclick="window.open('literature.html')"> 花物语·文选</button>
-    <button  type="submit" onclick="window.open('langue.html')"> 巴别塔·语库</button>
-    <button  type="submit" onclick="window.open('langue.html')"> 巴别塔·语库</button>
+    <button  type="submit" onclick="window.open('literature')"> 花物语·文选</button>
+    <button  type="submit" onclick="window.open('langue')"> 巴别塔·语库</button>
+    <button  type="submit" onclick="window.open('art')"> 全然美·艺术</button>
+    <button  type="submit" onclick="window.open('phil')"> 驭龙诀·哲学</button>
+    <button  type="submit" onclick="window.open('sci')"> 理学馆·科学</button>
+    </main>
+    <footer><a onclick="window.open('https://space.bilibili.com/12511105')">关注我们</a></footer>
   </body>
+    <script src="/src/js/jquery.min.js"></script>
+    <script src="/src/js/bootstrap.min.js"></script>
+    <script src="/src/js/scripts.js"></script>
 </html>
