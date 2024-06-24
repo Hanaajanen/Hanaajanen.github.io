@@ -1,0 +1,71 @@
+ body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      margin: 0;
+      color: white;
+      background-position: center;
+      background-size: cover;
+    }
+    header {
+      display: flex;
+      justify-content: flex-end;
+      padding: 10px;
+      background-color: rgba(0, 0, 0, 0.45);
+    }
+    header a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: white;
+    }
+    main {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.35);
+      width: 100%;
+      transition: height 0.3s ease; 
+    }
+    .container-fluid {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+    .row {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .column {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .col-md-12, .col-md-6 {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    footer {
+      padding: 10px;
+      background-color: rgba(0, 0, 0, 0.45);
+      text-align: center;
+    }
+    footer a {
+      color: white;
+    }
+    #content {
+      display: none;
+      padding: 10px;
+      transition: max-height 0.3s ease-out;
+      overflow: hidden;
+    }
+# Empty CSS file for your own CSS
