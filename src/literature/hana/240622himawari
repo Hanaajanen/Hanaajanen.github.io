@@ -22,7 +22,7 @@
     </header>
     <main class="container-fluid">
 	
-<div class="blog-post">
+<div class="blog-post-in">
   <button class="back-button" onclick="goBack()">返回上一页</button>
   <h3 class="blog-post-title-in"><a href="hana/240622himawari">花物语·向日葵</a></h3>
   <p class="blog-post-meta-in">公元2024年6月22日 分组：<a href="#">百合花开</a></p>
