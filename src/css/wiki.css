@@ -31,6 +31,10 @@
       width: 100%;
       transition: height 0.3s ease; 
     }
+    .container {
+            display: flex;
+            padding: 50px 20px; /* 向下平移50px */
+        }
     .container-fluid {
       display: flex;
       flex-direction: column;
@@ -139,7 +143,7 @@
             padding: 20px;
             border: 1px solid #ccc;
             background-color: rgba(0, 0, 0, 0.35);
-            position: sticky;
+            position: flex-start;
             top: 10px;
         }
         .toc {
@@ -148,9 +152,10 @@
             padding: 20px;
             border: 1px solid #ccc;
             background-color: rgba(0, 0, 0, 0.35);
-            position: fixed;
+            position: sticky;
             top: 10px;
             left: 10px;
+            align-self: flex-start;
         }
         .toc a {
             display: block;
