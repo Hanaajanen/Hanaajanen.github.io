@@ -135,19 +135,21 @@
         }
         .sidebar {
             width: 300px; /* 简介栏宽度 */
-            padding: 20px;
+            padding: 30px;
+            top: 40px;
             border: 1px solid #ccc;
             background-color: rgba(0, 0, 0, 0);
-            position: flex-end;
+            position: relative;
             margin-left: 20px; /* 保持与主内容的间距 */
+            align-self: flex-end;
         }
         .toc {
             width: 180px;
-            padding: 20px;
+            padding: 30px;
             border: 1px solid #ccc;
             background-color: rgba(0, 0, 0, 0);
             position: sticky;
-            top: 20px;
+            top: 40px;
             left: 30px;
             margin-right: 20px; /* 保持与主内容的间距 */
             align-self: flex-start;
