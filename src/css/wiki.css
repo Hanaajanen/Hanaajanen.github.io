@@ -1,0 +1,164 @@
+
+ body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      margin: 0;
+      color: white;
+      background-position: center;
+      background-size: cover;
+    }
+    header {
+      display: flex;
+      justify-content: flex-end;
+      padding: 10px;
+      background-color: rgba(0, 0, 0, 0.45);
+    }
+    header a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: white;
+    }
+    main {
+      width: calc(100% - 340px); 
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(0, 0, 0, 0.35);
+      width: 100%;
+      transition: height 0.3s ease; 
+    }
+    .container-fluid {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+    .row {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .column {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .col-md-12, .col-md-6 {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    footer {
+      padding: 10px;
+      background-color: rgba(0, 0, 0, 0.45);
+      text-align: center;
+    }
+    footer a {
+      color: white;
+    }
+    #content {
+      display: none;
+      padding: 10px;
+      transition: max-height 0.3s ease-out;
+      overflow: hidden;
+    }
+        .blog-post {
+            max-width: 600px; /* 最大宽度 */
+            width: 100%; /* 宽度为100%，即自适应屏幕 */
+            margin: 0 auto; /* 居中对齐 */
+            padding: 20px;
+            border: 1px solid #ccc;
+            word-wrap: break-word; /* 自动换行 */
+        }
+        .blog-post-title a {
+            text-decoration: none;
+        }
+        .blog-post-meta {
+            font-size: 0.9em;
+        }
+        .blog-post-content {
+            font-size: 1em;
+        }
+        .blog-post-in {
+            max-width: 1350px; /* 最大宽度 */
+            width: calc(100% - 120px); /* 宽度为100%，减去左侧固定距离 */
+            margin: 120px 0 0 120px; /* 距离顶部50px，左侧120px */
+            padding: 20px;
+            border: 1px solid #ccc;
+            word-wrap: break-word; /* 自动换行 */
+        }
+        .blog-post-title-in a {
+            text-decoration: none;
+        }
+        .blog-post-meta-in {
+            font-size: 0.9em;
+        }
+        .blog-post-content-in {
+            font-size: 1em;
+        }
+        hr {
+            border: 0;
+            border-top: 1px solid #eee;
+            margin: 20px 0;
+        }
+        .back-button {
+            top: 60px; /* 距离顶部10px */
+            left: 20px; /* 距离左侧10px */
+            padding: 10px 20px;
+            font-size: 1em;
+            color: #fff;
+            background-color: #99ffcd;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            z-index: 1000; /* 确保按钮在最上层 */
+        }
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+        .sidebar img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .sidebar p {
+            margin: 10px 0;
+        }
+        .sidebar {
+            width: 300px; /* 简介栏宽度 */
+            margin: 50px 20px; /* 向下平移50px */
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: #f0f0f0;
+            position: sticky;
+            top: 10px;
+        }
+        .toc {
+            width: 200px;
+            margin: 50px 0 50px 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: #e9e9e9;
+            position: fixed;
+            top: 10px;
+            left: 10px;
+        }
+        .toc a {
+            display: block;
+            margin: 5px 0;
+            text-decoration: none;
+            color: #007bff;
+        }
+        .toc a:hover {
+            text-decoration: underline;
+        }
+# Empty CSS file for your own CSS
