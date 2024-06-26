@@ -139,7 +139,7 @@
             border: 1px solid #ccc;
             background-color: rgba(0, 0, 0, 0);
             position: fixed;
-            top: 10px;
+            top: 20px;
             right: 30px;
             margin-left: 20px; /* 保持与主内容的间距 */
         }
@@ -149,7 +149,7 @@
             border: 1px solid #ccc;
             background-color: rgba(0, 0, 0, 0);
             position: sticky;
-            top: 10px;
+            top: 20px;
             left: 30px;
             margin-right: 20px; /* 保持与主内容的间距 */
             align-self: flex-start;
