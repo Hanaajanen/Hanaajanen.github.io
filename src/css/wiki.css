@@ -30,14 +30,10 @@
       background-color: rgba(0, 0, 0, 0.35);
       width: 100%;
       transition: height 0.3s ease; 
+      margin: 0 20px;
+     word-wrap: break-word;
     }
-.main-content {
-    flex-grow: 1; 
-    background-color: rgba(0, 0, 0, 0.35);
-    padding: 20px;
-    word-wrap: break-word;
-    margin: 0 20px;
-}
+
     .container {
             display: flex;
             padding: 50px 20px; /* 向下平移50px */
