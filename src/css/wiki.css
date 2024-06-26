@@ -139,7 +139,7 @@
             width: 300px; /* 简介栏宽度 */
             padding: 20px;
             border: 1px solid #ccc;
-            background-color: rgba(0, 0, 0, 0.35);
+            background-color: rgba(0, 0, 0, 0);
             position: flex-start;
             top: 10px;
             margin-left: 20px; /* 保持与主内容的间距 */
@@ -148,11 +148,12 @@
             width: 200px;
             padding: 20px;
             border: 1px solid #ccc;
-            background-color: rgba(0, 0, 0, 0.35);
+            background-color: rgba(0, 0, 0, 0);
             position: sticky;
             top: 10px;
             left: 10px;
             margin-right: 20px; /* 保持与主内容的间距 */
+            align-self: flex-start;
         }
         .toc a {
             display: block;
