@@ -114,8 +114,6 @@
             margin: 20px 0;
         }
         .back-button {
-            top: 60px; /* 距离顶部10px */
-            left: 20px; /* 距离左侧10px */
             padding: 10px 20px;
             font-size: 1em;
             color: #fff;
@@ -139,23 +137,22 @@
         }
         .sidebar {
             width: 300px; /* 简介栏宽度 */
-            margin: 50px 20px; /* 向下平移50px */
             padding: 20px;
             border: 1px solid #ccc;
             background-color: rgba(0, 0, 0, 0.35);
             position: flex-start;
             top: 10px;
+            margin-left: 20px; /* 保持与主内容的间距 */
         }
         .toc {
             width: 200px;
-            margin: 50px 0 50px 20px;
             padding: 20px;
             border: 1px solid #ccc;
             background-color: rgba(0, 0, 0, 0.35);
             position: sticky;
             top: 10px;
             left: 10px;
-            align-self: flex-start;
+            margin-right: 20px; /* 保持与主内容的间距 */
         }
         .toc a {
             display: block;
