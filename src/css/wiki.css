@@ -138,7 +138,7 @@
             padding: 20px;
             border: 1px solid #ccc;
             background-color: rgba(0, 0, 0, 0);
-            position: fixed;
+            position: flex-end;
             top: 20px;
             right: 30px;
             margin-left: 20px; /* 保持与主内容的间距 */
