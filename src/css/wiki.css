@@ -24,13 +24,11 @@
       display: flex;
       flex-direction: row;
       flex: 1;
-      justify-content: center;
-      align-items: center;
+      padding: 0;
       background-color: rgba(0, 0, 0, 0.35);
       width: 100%;
       transition: height 0.3s ease; 
     }
-
     .container {
             display: flex;
             padding: 50px 20px; /* 向下平移50px */
@@ -93,8 +91,8 @@
         }
         .blog-post-in {
             max-width: 1350px; /* 最大宽度 */
-            width: calc(100% - 420px); /* 宽度为100%，减去左侧固定距离 */
-            margin: 80px 0 0 150px; /* 距离顶部50px，左侧120px */
+            width: calc(100% - 380px); /* 宽度为100%，减去左侧固定距离 */
+            margin: 50px 0 0 120px; /* 距离顶部50px，左侧120px */
             padding: 20px;
             border: 1px solid #ccc;
             word-wrap: break-word; /* 自动换行 */
