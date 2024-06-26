@@ -139,9 +139,8 @@
             top: 40px;
             border: 1px solid #ccc;
             background-color: rgba(0, 0, 0, 0);
-            position: relative;
+            position: flex-end;
             margin-left: 20px; /* 保持与主内容的间距 */
-            align-self: flex-end;
         }
         .toc {
             width: 180px;
