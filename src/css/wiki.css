@@ -136,7 +136,6 @@
         .sidebar {
             width: 300px; /* 简介栏宽度 */
             padding: 30px;
-            top: 40px;
             border: 1px solid #ccc;
             background-color: rgba(0, 0, 0, 0);
             position: flex-end;
